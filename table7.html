@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, tr, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption><h4>일기예보</h4></caption>
+        <colgroup>
+            <col style="background-color:aqua">
+            <col>
+            <col>
+            <col style="background-color: wheat" span="2">
+            <col style="background-color: greenyellow" span="2">
+        </colgroup>
+        <thead>
+            <tr>
+                <th rowspan="2">지역</th>
+                <th colspan="2">27일(목)</th>
+                <th colspan="2">28일(금)</th>
+                <th colspan="2">29일(토)</th>
+            </tr>
+            <tr>
+                <td>오전</td>
+                <td>오후</td>
+                <td>오전</td>
+                <td>오후</td>
+                <td>오전</td>
+                <td>오후</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>서울 <br>경기도</td>
+                <td><img src="images/shine.png" alt="좋음"></td>
+                <td><img src="images/shine.png" alt="좋음"></td>
+                <td><img src="images/shine.png" alt="좋음"></td>
+                <td><img src="images/rain.png" alt="비"></td>
+                <td><img src="images/rain.png" alt="비"></td>
+                <td><img src="images/rain.png" alt="비"></td>
+            </tr>
+            <tr>
+                <td>제주도</td>
+                <td><img src="images/shine.png" alt="좋음"></td>
+                <td><img src="images/shine.png" alt="좋음"></td>
+                <td><img src="images/shine.png" alt="좋음"></td>
+                <td><img src="images/rain.png" alt="비"></td>
+                <td><img src="images/rain.png" alt="비"></td>
+                <td><img src="images/rain.png" alt="비"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
